@@ -1,2 +1,2 @@
 # auto_mihoyo_login
-基于selenium库自动化操作浏览器登录米游社
+基于selenium库自动化操作浏览器对接打码平台登录米游社
