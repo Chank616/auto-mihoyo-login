@@ -89,9 +89,9 @@ driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[4]/div/div[2]/div[1
 time.sleep(1)
 # 输入账号密码 1s 注：此处可以更改账号密码
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[4]/div/div[2]/form/div[1]/div/input").send_keys(
-    "13525250615")
+    "你的账号")
 time.sleep(1)
-driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[4]/div/div[2]/form/div[2]/div/input").send_keys("cx413616")
+driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[4]/div/div[2]/form/div[2]/div/input").send_keys("你的密码")
 # 获取验证码 5s
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[4]/div/div[2]/form/div[4]/button").click()
 time.sleep(5)
